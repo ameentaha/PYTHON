@@ -1,0 +1,15 @@
+#Python program to print the positive integers in a range
+
+a = []
+
+n = int(input("Enter the number of elements: "))
+
+for i in range(0,n):
+    ele = int(input())
+    a.append(ele)
+    
+print(a)  
+
+for i in a:
+    if i>=0:
+        print(i)
